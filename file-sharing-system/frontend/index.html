@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File Sharing System</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <h2>Niki file sharing</h2>
+      <ul>
+        <li><a href="#">Recent</a></li>
+      </ul>
+    </div>
+    <div class="main-content">
+      <div class="header">
+        <h1>File Sharing System</h1>
+      </div>
+      <div class="upload-section">
+        <h2>Upload a File</h2>
+        <input type="file" id="fileInput" />
+        <button id="uploadButton">Upload</button>
+        <p id="uploadStatus"></p>
+      </div>
+      <div class="file-list">
+        <h2>All Files</h2>
+        <div id="fileList"></div>
+      </div>
+    </div>
+
+    <!-- Custom Modal for Delete Confirmation -->
+    <div id="deleteModal" class="modal">
+      <div class="modal-content">
+        <p id="modalMessage"></p>
+        <button id="confirmDeleteButton">Delete</button>
+        <button id="cancelDeleteButton">Cancel</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
