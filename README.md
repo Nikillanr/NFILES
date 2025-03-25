@@ -3,7 +3,7 @@ If you're opening the index.html file directly in the browser (e.g., using file:
 
 Use a Local Server:
 
-Use a simple HTTP server to serve your frontend files. For example, with Python:
+Use a simple HTTP server to serve your frontend files. For example, with Python:</br>
 python -m http.server 8000
 Then open http://localhost:8000/frontend/index.html in your browser.
 
